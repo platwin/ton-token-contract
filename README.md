@@ -30,4 +30,9 @@ Semi-Fungible tokens is combination of NFT and FT.
 
 # Compile
 
-Compiled contracts are in `build/` folders. Compiled by [func-0.3.0](https://github.com/ton-blockchain/ton/releases/tag/func-0.3.0).
+Compiled contracts are in `build/` folders. Compiled by [func](https://github.com/ton-blockchain/ton/releases).
+
+- clone [toncli](https://github.com/disintar/toncli)
+- cp toncli/src/toncli/lib/fif-libs ./ -r
+- export FIFTPATH=PATH_TO_FIF_LIBS/toncli/src/toncli/lib/fif-libs/
+- use compile.sh at each directory

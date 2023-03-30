@@ -12,4 +12,5 @@ func -o build/nft-collection-editable-code.fif -SPA ../stdlib.fc params.fc op-co
 func -o build/nft-marketplace-code.fif -SPA ../stdlib.fc op-codes.fc nft-marketplace.fc
 func -o build/nft-sale-code.fif -SPA ../stdlib.fc op-codes.fc nft-sale.fc
 
+export FIFTPATH=../fift-libs/
 fift -s build/print-hex.fif
